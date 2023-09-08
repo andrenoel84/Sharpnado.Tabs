@@ -707,7 +707,7 @@ namespace Sharpnado.Tabs
                 return;
             }
 
-            if (Device.RuntimePlatform == Device.UWP)
+            if (Device.RuntimePlatform == Device.UWP || Device.RuntimePlatform == Device.MacCatalyst)
             {
                 tabItem.GestureRecognizers.Add(
                     new TapGestureRecognizer { Command = TabItemTappedCommand, CommandParameter = tabItem });
