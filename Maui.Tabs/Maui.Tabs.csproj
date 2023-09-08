@@ -81,7 +81,7 @@
 		<Owners>Jean-Marie Alfonsi</Owners>
 		<Authors>Jean-Marie Alfonsi</Authors>
 		<Copyright>Copyright 2022 Sharpnado</Copyright>
-		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<GeneratePackageOnBuild>False</GeneratePackageOnBuild>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
